@@ -9,7 +9,7 @@ export class App extends Component {
     good: 0,
     neutral: 0,
     bad: 0,
-  };
+  }
 
   totalizeOptions = option => {
     this.setState(prevState => {
@@ -28,7 +28,6 @@ export class App extends Component {
   };
 
   render() {
-    const { good, neutral, bad } = this.state;
     return (
       <div>
         <Section title="Please leave feedback" />
